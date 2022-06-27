@@ -81,3 +81,11 @@ img {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+.mobile-menu-button:not(:checked) ~ .mobile-menu {
+    display: none;
+}
+
+.mobile-menu-button:checked ~.mobile-menu {
+    display: block;
+}
