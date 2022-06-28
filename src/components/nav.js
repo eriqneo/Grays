@@ -18,11 +18,11 @@ navTemplate.innerHTML = `
               <div class="hidden md:flex space-x-3 whitespace-nowrap">
                   <div>
                       <!--Logo-->
-                      <a href="index.html" class="flex items-center py-4">
+                      <a href="/index.html" class="flex items-center py-4">
                           <img src="/dist/images/logo .png" alt="" class="w-full mr-2 rounded-lg "> 
                       </a>
                   </div>
-                      <a href="index.html" class="py-4 px-1 text-black text-2xl hover:text-gray-100 border-b-4 border-gray-100 font-bold">Home</a>
+                      <a href="/index.html" class="py-4 px-1 text-black text-2xl hover:text-gray-100 border-b-4 border-gray-100 font-bold">Home</a>
                       <a href="about.html" class="py-4 px-1 text-gray-300 text-xl font-semibold hover:text-white hover:border-b-2 transition duration-300">About Us</a>
                       <a href="services.html" class="dropdown">
                         <button class="py-4 px-1 text-gray-300 text-xl font-semibold hover:text-white hover:border-b-2 transition duration-300">
